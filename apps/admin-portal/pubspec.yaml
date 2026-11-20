@@ -1,0 +1,44 @@
+name: admin_panel
+description: Admin Panel Application
+
+publish_to: 'none'
+
+version: 1.0.3+4
+
+environment:
+  sdk: '>=3.10.0 <5.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.3.0
+  url_launcher: ^6.3.2
+  http: ^1.2.0
+  local_auth: ^3.0.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  shared_preferences: ^2.3.0
+  flutter_dotenv: ^6.0.1
+  shimmer: ^3.0.0
+  fl_chart: ^1.2.0
+  local_auth_android: ^2.0.9
+  crypto: ^3.0.0
+  flutter_secure_storage: ^9.2.4
+  device_info_plus: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - .env
+    - assets/certs/
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo.ttf

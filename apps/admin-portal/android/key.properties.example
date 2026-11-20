@@ -1,0 +1,15 @@
+# Keystore configuration for release builds
+# Copy this file to key.properties and fill in your values
+# DO NOT COMMIT key.properties to git (add to .gitignore)
+
+# Alias of the key in the keystore
+keyAlias=your_key_alias
+
+# Password for the key
+keyPassword=your_key_password
+
+# Path to the keystore file (relative to android/app/ or absolute)
+storeFile=../keystore.jks
+
+# Password for the keystore
+storePassword=your_store_password
